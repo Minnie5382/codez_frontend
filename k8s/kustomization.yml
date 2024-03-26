@@ -1,4 +1,4 @@
-namespace: krampoline
+namespace: fe
 resources:
   - deployment.yaml
   - service.yaml
