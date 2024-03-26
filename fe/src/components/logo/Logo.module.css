@@ -1,0 +1,14 @@
+.logoBox {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 160px;
+}
+
+.logoBox p {
+  font-size: 6.5rem;
+  font-family: 'Spicy Soup', sans-serif;
+}

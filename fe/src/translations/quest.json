@@ -1,0 +1,144 @@
+{
+  "quest": [
+    {
+      "id": 1,
+      "title": "배열 문제 풀기",
+      "description": "기본 배열 문제",
+      "exp": 50,
+      "quest_type": "일일"
+    },
+    {
+      "id": 2,
+      "title": "정렬 알고리즘",
+      "description": "정렬 연습하기",
+      "exp": 60,
+      "quest_type": "일일"
+    },
+    {
+      "id": 3,
+      "title": "해시 테이블",
+      "description": "해시 활용문제",
+      "exp": 70,
+      "quest_type": "일일"
+    },
+    {
+      "id": 4,
+      "title": "DFS 문제 풀기",
+      "description": "DFS 기초 문제",
+      "exp": 80,
+      "quest_type": "일일"
+    },
+    {
+      "id": 5,
+      "title": "BFS 연습하기",
+      "description": "BFS 기초 문제",
+      "exp": 90,
+      "quest_type": "일일"
+    },
+    {
+      "id": 6,
+      "title": "다이나믹 프로그래밍",
+      "description": "DP 기초 문제",
+      "exp": 100,
+      "quest_type": "일일"
+    },
+    {
+      "id": 7,
+      "title": "그래프 이론",
+      "description": "그래프 기초",
+      "exp": 110,
+      "quest_type": "일일"
+    },
+    {
+      "id": 8,
+      "title": "이진 검색 트리",
+      "description": "BST 연습문제",
+      "exp": 120,
+      "quest_type": "일일"
+    },
+    {
+      "id": 9,
+      "title": "그리디 알고리즘",
+      "description": "그리디 기초",
+      "exp": 130,
+      "quest_type": "일일"
+    },
+    {
+      "id": 10,
+      "title": "문자열 조작하기",
+      "description": "문자열 기본",
+      "exp": 140,
+      "quest_type": "일일"
+    },
+    {
+      "id": 11,
+      "title": "고급 정렬 알고리즘",
+      "description": "퀵, 머지 정렬",
+      "exp": 150,
+      "quest_type": "주간"
+    },
+    {
+      "id": 12,
+      "title": "고급 그래프 문제",
+      "description": "최단 경로 알고리즘",
+      "exp": 160,
+      "quest_type": "주간"
+    },
+    {
+      "id": 13,
+      "title": "고급 동적 프로그래밍",
+      "description": "복잡한 DP 문제",
+      "exp": 170,
+      "quest_type": "주간"
+    },
+    {
+      "id": 14,
+      "title": "트리 구조 심화",
+      "description": "AVL, 레드블랙 트리",
+      "exp": 180,
+      "quest_type": "주간"
+    },
+    {
+      "id": 15,
+      "title": "네트워크 플로우",
+      "description": "플로우 네트워크",
+      "exp": 190,
+      "quest_type": "주간"
+    },
+    {
+      "id": 16,
+      "title": "복잡한 그리디 문제",
+      "description": "고급 그리디 문제",
+      "exp": 200,
+      "quest_type": "주간"
+    },
+    {
+      "id": 17,
+      "title": "분할 정복 알고리즘",
+      "description": "분할 정복 문제",
+      "exp": 210,
+      "quest_type": "주간"
+    },
+    {
+      "id": 18,
+      "title": "백트래킹 마스터",
+      "description": "백트래킹 연습",
+      "exp": 220,
+      "quest_type": "주간"
+    },
+    {
+      "id": 19,
+      "title": "최적화 문제 해결",
+      "description": "최적화 알고리즘",
+      "exp": 230,
+      "quest_type": "주간"
+    },
+    {
+      "id": 20,
+      "title": "알고리즘 챌린지",
+      "description": "챌린지 문제 풀이",
+      "exp": 240,
+      "quest_type": "주간"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+.mainContainer {
+  height: calc(100vh - 170px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.questContainer {
+  background-color: var(--sub-color);
+  height: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.questContainer hr {
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
+}
+
+.questHeader {
+  display: flex;
+  justify-content: space-between;
+  min-width: 290px;
+}
+
+.questHeader h2 {
+  font-size: 2rem;
+}
+
+.questHeader button {
+  background-color: #ccc;
+  color: #323232;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.questList {
+  display: flex;
+  gap: 20px;
+}
+
+.questList li {
+  display: flex;
+  flex-grow: 1;
+  background-color: #323232;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  min-width: 310px;
+}
+
+.questList img {
+  width: 120px;
+}
+.questList p {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.questList button {
+  background-color: #ccc;
+  color: #323232;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  width: 110px;
+}
+
+.questHeader .buttonClear,
+.questList .buttonClear {
+  cursor: pointer;
+  background-color: var(--point-color);
+  color: #fff;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

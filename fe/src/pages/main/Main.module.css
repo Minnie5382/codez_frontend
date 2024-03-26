@@ -1,0 +1,175 @@
+.mainContainer {
+  flex-grow: 1;
+  height: calc(100vh - 170px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainer {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.leftContainer {
+  flex-grow: 1;
+  min-width: 755px;
+}
+
+.dropBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rightContainer::-webkit-scrollbar,
+.questBox::-webkit-scrollbar {
+  display: none;
+}
+
+.rightContainer,
+.questBox {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.rightContainer {
+  flex-grow: 3.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.questBox {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position: relative;
+  background-color: var(--sub-color);
+  border-radius: 30px;
+  overflow-y: auto;
+}
+
+.questBox a {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  margin: 10px;
+}
+
+.questBox hr {
+  width: 90%;
+  height: 2px;
+}
+
+.quest p {
+  font-size: 1.75rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+
+.dailyQuest p,
+.weeklyQuest p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.questList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.questItem {
+  background-color: #3e3e4f;
+  padding: 10px;
+  border-radius: 30px;
+  height: 70px;
+  min-width: 300px;
+}
+
+.questList img {
+  width: 80px;
+}
+
+.questList p {
+  font-size: 1rem;
+}
+
+.questItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonClear {
+  cursor: pointer;
+  background-color: var(--point-color);
+  color: #fff;
+}
+
+.questTitle {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 130px;
+  text-align: center;
+}
+
+.questTitle span {
+  width: 130px;
+  overflow: hidden;
+}
+
+.questItem button {
+  padding: 10px;
+  border-radius: 20px;
+  min-width: 44px;
+}
+
+.description {
+  font-size: 0.9rem;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.bar span {
+  width: 90%;
+  height: 30px;
+  border-radius: 30px;
+}
+
+@media (min-width: 1550px) {
+  .rightContainer {
+    max-width: 380px;
+  }
+
+  .questList div {
+    max-width: 150px;
+    flex-grow: 1;
+  }
+
+  .postsHeader,
+  .postRow {
+    font-size: 1.25rem;
+  }
+
+  .postRow {
+    padding: 3.5px 5px;
+  }
+}

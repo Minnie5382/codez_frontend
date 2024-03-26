@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex: 1;
+}
+.mainlogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  width: 170px;
+}
+.logoimg {
+  width: 60px;
+}
+.logoname {
+  font-size: 2.5rem;
+  font-family: "Spicy Soup", sans-serif;
+}
+.container {
+  display: flex;
+  background-color: var(--sub-color);
+  border-radius: 50px;
+  margin: 0 20px 20px 20px;
+  padding: 20px;
+  flex: 1;
+}
+/* 문제 CSS */
+.problem_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.problem_box {
+  height: 80%;
+}
+
+.problem {
+  flex: 2;
+}
+.problem_container hr {
+  width: 100%;
+  border-radius: 5px;
+  height: 3px;
+}
+.problem_title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.problem_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.problem_content button {
+  width: 30px;
+}
+.problem_explain {
+  padding: 10px 0px;
+}
+
+.problem_explain_info {
+  margin-bottom: 10px;
+}
+
+.v_line {
+  border-left: 3px solid rgb(81, 83, 84);
+}
+.notice {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+/* 풀이 CSS */
+.solve_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 10px;
+}
+.solve_lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  height: 52px;
+}
+.solve_lang p {
+  font-size: 1.4rem;
+}
+.solve_result {
+  font-size: 1.2rem;
+}
+.solve_result_info {
+  padding-top: 10px;
+  gap: 20px;
+}
+.result_datail {
+}
+.solve_container hr {
+  width: 100%;
+  border-radius: 5px;
+  height: 3px;
+}
+.solve_editor {
+  flex: 5;
+  padding: 10px 20px;
+  resize: vertical;
+  overflow: auto;
+}
+.editor {
+  width: 100px;
+}
+.result_box {
+  flex: 3;
+  padding: 14px 20px;
+}
+
+.btn_tool {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 20px;
+  gap: 10px;
+}
+.btn_tool button {
+  height: 35px;
+  width: 80px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border-radius: 30px;
+  background-color: var(--sub-color);
+  transition: background-color 0.3s ease-in;
+}
+.btn_tool button:hover {
+  background-color: var(--background-color);
+  cursor: pointer;
+}

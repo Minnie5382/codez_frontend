@@ -1,0 +1,58 @@
+.sidebar {
+  width: 290px;
+  height: 100vh;
+  background-color: var(--sub-color);
+  border-radius: 0 50px 50px 0;
+}
+
+.userBox {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.user {
+  height: 140px;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.userImg{
+  width: 120px;
+  border-radius: 20px;
+}
+.resultBox {
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resultBox p {
+  font-size: 1.25rem;
+}
+
+.resultBox span {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+hr {
+  width: 260px;
+  height: 1px;
+  border: none;
+  background-color: #5a5a5c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkBox {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.75rem;
+  gap: 30px;
+}

@@ -1,0 +1,59 @@
+.problemsBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  height: calc(100% - 90px);
+  background-color: var(--sub-color);
+}
+
+.postsHeader,
+.postRow {
+  display: flex;
+  text-align: left;
+}
+
+.postAttribute,
+.postTitle {
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.postAttribute {
+  flex: 1;
+}
+
+.postTitle {
+  flex: 3;
+  min-width: 340px;
+}
+
+.postsList {
+  overflow-y: auto;
+  height: calc(100% - 100px);
+}
+
+.postsHeader {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.postRow {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+}
+
+.submissionCount {
+  width: 60px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,207 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "status": "완료",
+      "title": "이진 트리의 최대 깊이",
+      "content": "이진 트리가 주어졌을 때, 그 트리의 최대 깊이를 찾아 반환하라.",
+      "timeLimit": "1초",
+      "difficulty": "뉴비",
+      "correctRate": "85%",
+      "submitNum": 1000,
+      "correctNum": 850,
+      "inputFormat": "트리의 노드 값들이 레벨 순서대로 주어진다. null은 노드가 없음을 의미한다.",
+      "EXP": 150,
+      "testCaseEntityArray": [
+        {
+          "input": "3,9,20,null,null,15,7",
+          "output": "3",
+          "description": "주어진 이진 트리의 최대 깊이는 3이다."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "status": "완료",
+
+      "title": "동전 교환",
+      "content": "다양한 동전들이 주어지고, 특정 금액을 만드는 데 필요한 최소 동전 개수를 찾아라.",
+      "timeLimit": "1초",
+      "difficulty": "주니어",
+      "correctRate": "60%",
+      "submitNum": 5000,
+      "correctNum": 300,
+      "inputFormat": "첫 번째 줄에 동전의 종류 개수 n과 목표 금액 m이 주어진다. 두 번째 줄에 n개의 동전 가치가 주어진다.",
+      "EXP": 250,
+      "testCaseEntityArray": [
+        {
+          "input": "3 11\n1 2 5",
+          "output": "3",
+          "description": "11을 만드는 최소 동전 개수는 5+5+1=3개이다."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "status": "실패",
+
+      "title": "부분 문자열이 포함된 최소 윈도우",
+      "content": "문자열 S와 T가 주어졌을 때, T의 모든 문자를 포함하는 S의 최소 윈도우를 찾아라.",
+      "timeLimit": "1초",
+      "difficulty": "시니어",
+      "correctRate": "45%",
+      "submitNum": 0,
+      "correctNum": 180,
+      "inputFormat": "첫 번째 줄에 문자열 S가 주어진다. 두 번째 줄에 문자열 T가 주어진다.",
+      "EXP": 350,
+      "testCaseEntityArray": [
+        {
+          "input": "ADOBECODEBANC\nABC",
+          "output": "BANC",
+          "description": "T의 모든 문자를 포함하는 S의 최소 윈도우는 'BANC'이다."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "status": "완료",
+
+      "title": "회전된 정렬된 배열에서의 검색",
+      "content": "오름차순으로 정렬된 배열이 회전되어 있을 때, 주어진 타겟 값을 찾아 그 인덱스를 반환하라. 없으면 -1을 반환하라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "70%",
+      "submitNum": 800,
+      "correctNum": 560,
+      "inputFormat": "첫 번째 줄에 배열의 크기 n과 타겟 값 target이 주어진다. 두 번째 줄에 n개의 배열 원소가 주어진다.",
+      "EXP": 200,
+      "testCaseEntityArray": [
+        {
+          "input": "7 0\n4 5 6 7 0 1 2",
+          "output": "4",
+          "description": "타겟 값 0은 배열의 4번째 위치에 있다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "실패",
+      "title": "연결 리스트 뒤집기",
+      "content": "주어진 단일 연결 리스트의 노드들을 뒤집어라.",
+      "timeLimit": "1초",
+      "difficulty": "신",
+      "correctRate": "80%",
+      "submitNum": 900,
+      "correctNum": 720,
+      "inputFormat": "노드들의 값이 공백으로 구분되어 주어진다.",
+      "EXP": 100,
+      "testCaseEntityArray": [
+        {
+          "input": "1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "description": "연결 리스트를 뒤집으면 5 4 3 2 1의 순서가 된다."
+        }
+      ]
+    }
+  ]
+}

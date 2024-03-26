@@ -1,0 +1,84 @@
+.create_problem_form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--sub-color);
+  border-radius: 8px;
+}
+
+.create_problem_form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.create_problem_form input[type='text'],
+.create_problem_form input[type='number'],
+.create_problem_form textarea,
+.create_problem_form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  color: var(--black);
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.create_problem_form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.create_problem_form .testcase {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: var(--background-color);
+  border-radius: 4px;
+}
+
+.create_problem_form .testcase label {
+  margin-right: 10px;
+}
+
+.create_problem_form .testcase input[type='text'] {
+  margin-bottom: 10px;
+}
+
+.create_problem_form button[type='submit'],
+.create_problem_form button[type='button'] {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create_problem_form button[type='button'],
+.create_problem_form button[type='submit'] {
+  background-color: var(--point-color);
+  color: var(--font-color);
+}
+
+.create_problem_form button[type='button']:last-child {
+  margin-bottom: 0;
+}
+
+.create_problem_form button[type='submit']:last-child {
+  margin-right: 0;
+}
+
+.create_problem_form button[type='submit']:hover,
+.create_problem_form button[type='button']:hover {
+  opacity: 0.8;
+}
+
+.create_problem_form .submitBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.monaco {
+  margin: 10px 0 20px;
+}
